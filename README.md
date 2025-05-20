@@ -30,15 +30,18 @@ This tool is designed for security professionals, threat intelligence analysts, 
 -	Ensure you have a valid DeHashed API key with sufficient credits.
 
 # Basic Usage
--	Run the script from the command line with a domain name and your API key:
+Run the script from the command line with a domain name and your API key:
 
 ```
 python dehashed_domain_intel.py example.com --api-key YOUR_API_KEY_HERE
 ```
 
--	Command-Line Arguments
-o	domain (required): The domain to investigate (e.g., example.com)
+Command-Line Arguments
+
+```<domain>``` (required): The domain to investigate (e.g., example.com)
+
   ```--api-key``` (required): Your DeHashed API key
+  
   ```--output-dir``` (optional): Directory to save results (default: ./results)
 
 # Output Structure
